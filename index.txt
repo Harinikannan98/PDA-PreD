@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PDA-Pred</title>
+<!-- Bootstrap CSS CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!-- Our Custom CSS -->
+<link rel="stylesheet" href="/bioinfo2/pdapred/style4.css">
+<!-- Font Awesome JS -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+<style>#customers{border-collapse:collapse;width:80%;}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}</style>
+</head>
+<body>
+<div class="wrapper">
+<!-- Sidebar  -->
+<nav id="sidebar">
+<div class="sidebar-header">
+<h3>PDA-Pred</h3>
+<strong>PD</strong>
+</div>
+<ul class="list-unstyled components">
+<li>
+<a href="/bioinfo2/pdapred/index.html">
+<i class="fas fa-home"></i>&nbsp;
+Home
+</a>
+</li>
+<li class="active">
+<a href="/bioinfo2/pdapred/predict.html">
+<i class="fas fa-search"></i>&nbsp;
+Predict
+</a>
+</li>
+<li>
+<a href="/bioinfo2/pdapred/faq.html">
+<i class="fas fa-question"></i>&nbsp;&nbsp;&nbsp;
+FAQs&nbsp;&nbsp;
+</a>
+</li>
+<li>
+<a href="/bioinfo2/pdapred/contact.html">
+<i class="fas fa-paper-plane"></i>&nbsp;
+Contact
+</a>
+</li>
+<li>
+<a href="/bioinfo2/pdapred/about.html">
+<i class="fas fa-info-circle"></i>&nbsp;
+About
+</a>
+</li>
+</ul>
+<ul class="list-unstyled CTAs">
+<li>Related Links</li><br/>
+<li>
+<a href="http://web.iitm.ac.in/bioinfo2/pronab/" class="article" target="_blank">ProNAB</a>
+</li>
+</ul>
+</nav>
+<!-- Page Content  -->
+<div id="content">
+<center> 
+<table width="100%" style=background:#123456;border-color:white;border-style:solid;color:white;font-size:12>
+<tr>
+<td align="left" width="25%"><img src="/../bioinfo2/pdapred/IIT_Madras_Logo.png" alt="IIT Madras" style="width:100px;height:100px;"></td>
+<td align="center" width="50%" rowspan=2><h1>PDA-Pred</h1><b>P</b>rotein-<b>D</b>NA complex Binding <b>A</b>ffinity <b>Pred</b>iction</td>
+<td align="right" width="25%"><img src="/../bioinfo2/pdapred/PBL_logo.png" alt="Protein Bioinformatics Lab" style="width:100px;height:100px;"></td>
+</tr>
+</table>
+</center>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<button type="button" id="sidebarCollapse" class="btn btn-info">
+<i class="fas fa-align-left"></i>
+<span></span>
+</button>
+<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fas fa-align-justify"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="nav navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="/../bioinfo2/pdapred/index.html">Home</a>
+</li>
+<li class="nav-item active">
+<a class="nav-link" href="/../bioinfo2/pdapred/predict.html">Predict</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/../bioinfo2/pdapred/faq.html">FAQs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/../bioinfo2/pdapred/tutorial.html">Tutorial</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/../bioinfo2/pdapred/contact.html">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/../bioinfo2/pdapred/disclaimer.html">Disclaimer</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href=/../bioinfo2/pdapred/useful_links.html">Useful Links</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div>
+<center><h2>Prediction Results</h2><br/><br/>
