@@ -28,7 +28,7 @@ Dependencies:
 2. Please ensure the packages such os,re, Bio, numpy, functools,sys, time, shutil, subprocess, math, uuid, cgitb, timeit, wget, glob, urllib, pandas, warnings are installed.
 3. Make sure to edit the naccess executable file with the path of local installation (Source: http://www.bioinf.manchester.ac.uk/naccess/).
 4. Also needs the installation of 3vvv software, used for volume and surface area calculation (Source: https://github.com/vosslab/vossvolvox)
-5. Kindly install the Foldx, executable file is also provided (Source: https://foldxsuite.crg.eu/)
+5. Kindly install the Foldx software. (Source: https://foldxsuite.crg.eu/)
 
 Run:
 1. Run "python3 pdpredict.py"
