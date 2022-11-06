@@ -12,11 +12,13 @@ User can enter the chain ID of DNA. Multiple chain Ids can be entered with comma
 User should select one of the DNA class for the prediction. *
 1. Single strand
 2. Double strand
+
 User should select one of the strucutral class of protein for the prediction, if the DNA is double stranded *
 1. all-α
 2. all-β
 3. αβ
 4. others
+
 User should select one of the Functional class of protein for the prediction. *
 1. Regulatory
 2. other (non-regulatory)
@@ -24,9 +26,9 @@ User should select one of the Functional class of protein for the prediction. *
 Dependencies:
 1. Program is basically using python3, and demands few python packages to run.
 2. Please ensure the packages such os,re, Bio, numpy, functools,sys, time, shutil, subprocess, math, uuid, cgitb, timeit, wget, glob, urllib, pandas, warnings are installed.
-3. Make sure that the naccess, has the executable path, installed in the local system
-4. Also it need the installation of 3vvv software, used for volume and surface area calculation (Source: https://github.com/vosslab/vossvolvox)
-5. Foldx exectable file
+3. Make sure to edit the naccess executable file with the path of local installation (Source: http://www.bioinf.manchester.ac.uk/naccess/).
+4. Also needs the installation of 3vvv software, used for volume and surface area calculation (Source: https://github.com/vosslab/vossvolvox)
+5. Kindly install the Foldx, executable file is also provided (Source: https://foldxsuite.crg.eu/)
 
 Run:
 1. Run "python3 pdpredict.py"
